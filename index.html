@@ -10,8 +10,8 @@
 
     <h1>Car Brand Spinning Wheel</h1>
     <div class="wheel-container">
-        <div class="wheel" id="wheel"></div>
-        <div class="arrow">▼</div> <!-- Arrow points to winning segment -->
+        <canvas id="wheelCanvas" width="400" height="400"></canvas>
+        <div class="arrow">▼</div> <!-- Fixed arrow pointing to the winning segment -->
     </div>
     <button class="button" onclick="spinWheel()">Spin</button>
     <p id="result"></p>
